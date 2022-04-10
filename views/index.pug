@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  p
+    a(href='/sender.html') Sender
+  p
+    a(href='/receiver.html' target='_blank') Receiver
+
+  script(src='/js/sender.js' type='text/javascript')
